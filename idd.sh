@@ -4,7 +4,7 @@ INFILE=$1
 OUTFILE=$2
 
 echo " "
-echo " ##### idd (interactive dd) - by bitsmith42 #####"
+echo " ##### idd (interactive dd) #####"
 
 #declare the "help" function to tell clueless users how to use idd
 function helpme(){
@@ -66,7 +66,7 @@ else
     fi
 fi
 
-echo "Ready to run."
+echo "Ready to copy."
 echo "From: '$INFILE'"
 echo "Size: $FILESIZE"
 echo "To: '$OUTFILE'"
